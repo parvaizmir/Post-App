@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.post.application.Post.Application.Service.ServiceImplementation.PostServiceImpulTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.881 s -- in com.post.application.Post.Application.Service.ServiceImplementation.PostServiceImpulTest

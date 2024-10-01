@@ -1,0 +1,4 @@
+com/post/application/Post/Application/Repository/PostRepositoryImplementation/PostRepositoryImpulTest.class
+com/post/application/Post/Application/PostApplicationTests.class
+com/post/application/Post/Application/Controller/PostControllerTest.class
+com/post/application/Post/Application/Service/ServiceImplementation/PostServiceImpulTest.class
