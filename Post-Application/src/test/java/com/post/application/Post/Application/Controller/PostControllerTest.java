@@ -135,11 +135,11 @@ class PostControllerTest {
     void getAllPosts() throws Exception {
         when(postService.getAllPosts()).thenReturn(uniquePosts);
 
-        // Act & Assert
+        
         mockMvc.perform(get("/post/")
                         .contentType(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.length()").value(2)) // Adjust according to your JSON structure
+                .andExpect(jsonPath("$.length()").value(2))
                 .andExpect(jsonPath("$[0].title").value("Title 1"))
                 .andExpect(jsonPath("$[1].title").value("Title 2"));
 
